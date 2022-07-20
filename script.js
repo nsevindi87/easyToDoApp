@@ -9,15 +9,23 @@ addToDoButton.addEventListener('click', function(){
     todoContainer.appendChild(paragraph);
     paragraph.innerHTML = inputText.value;
     inputText.value = '';
+    inputText.focus();
 
     paragraph.onclick=()=>{
         paragraph.classList.toggle('done')
-    }
+        inputText.focus()
+    };
     /*   paragraph.addEventListener('onclick', function(){
          paragraph.style.textDecoration = 'line-through';
     }) */
 
     paragraph.addEventListener('dblclick', function(){
         todoContainer.removeChild(paragraph);
+        inputText.focus()
+    });
+
+    clearToDo.addEventListener('click', function(){
+        paragraph.remove();
+        inputText.focus();
     })
 })

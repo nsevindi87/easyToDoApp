@@ -44,16 +44,16 @@ body{
     background : linear-gradient(90deg, #48acea, #4766ff);
 }
 #addToDo:hover{
-    background : linear-gradient(90deg, #3ca9d7, #4a27d9)
+    background : linear-gradient(90deg, #3ca9d7, #4a27d9);
 }
 #addToDo:active{
     background: #4766ff;
 }
 #clearToDo{
-    background : linear-gradient(90deg, #a73754, #f6f2fd)
+    background : linear-gradient(90deg, #a73754, #f6f2fd);
 }
 #clearToDo:hover{
-    background : linear-gradient(90deg, #cfe8bc, #b72a5b)
+    background : linear-gradient(90deg, #cfe8bc, #b72a5b);
 }
 #clearToDo:active{
     background: #a73754;
