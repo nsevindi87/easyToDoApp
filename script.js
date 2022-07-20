@@ -15,7 +15,7 @@ addToDoButton.addEventListener('click', function(){
         paragraph.classList.toggle('done')
         inputText.focus()
     };
-    /*   paragraph.addEventListener('onclick', function(){
+    /*   paragraph.addEventListener('click', function(){
          paragraph.style.textDecoration = 'line-through';
     }) */
 
