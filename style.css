@@ -58,3 +58,19 @@ body{
 #clearToDo:active{
     background: #a73754;
 }
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: purple;
+    text-transform: capitalize;
+}
+
+.todos{
+    margin-top: 25px;
+}
+
+.done{
+    text-decoration: line-through;
+}
